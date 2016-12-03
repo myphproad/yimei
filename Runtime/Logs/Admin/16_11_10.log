@@ -1,0 +1,1774 @@
+[ 2016-11-10T10:59:46+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004543s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_name`,`login_password`,`manager_id`,`level`,`membership`,`idcardobverse`,`idcardfront` FROM `yimei_user` WHERE `login_name` = 'admin' LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `yimei_action` WHERE `name` = 'admin_login' LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `yimei_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('12','1','0','user','1','1478746786','admin在2016-11-10 10:59登录了后台') [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_user` SET `login_count`=`login_count`+1,`last_login_time`='1478746786',`last_login_ip`='0' WHERE `uid` = 1 [ RunTime:0.0003s ]
+
+[ 2016-11-10T10:59:51+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008776s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002579s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `yimei_public`  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 384 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `yimei_public_link` WHERE `uid` = 1  [ RunTime:0.0011s ]
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0012s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0117s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001715s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006184s ]
+
+[ 2016-11-10T11:01:45+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Plugin/index.html
+ERR: 插件AliPlay的入口文件不存在！
+ERR: 插件BaiduStatistics的入口文件不存在！
+ERR: 插件ReturnTop的入口文件不存在！
+
+[ 2016-11-10T11:02:15+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Addons/uninstall/id/176.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006417s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001935s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `yimei_public`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 384 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `yimei_public_link` WHERE `uid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0011s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0107s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0012s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Addons/uninstall%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 43  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 43 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '扩展' AND `pid` = 43 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_addons` WHERE `id` = 176 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `yimei_attribute` WHERE model_id = (SELECT id FROM yimei_model WHERE `name`='forum_topics' ORDER BY id DESC LIMIT 1) [ RunTime:0.0110s ]
+SQL: DELETE FROM `yimei_model` WHERE `name`='forum_topics' ORDER BY id DESC LIMIT 1 [ RunTime:0.0005s ]
+SQL: DROP TABLE IF EXISTS `yimei_forum_topics` [ RunTime:0.0351s ]
+SQL: DELETE FROM `yimei_attribute` WHERE model_id = (SELECT id FROM yimei_model WHERE `name`='forum_comment' ORDER BY id DESC LIMIT 1) [ RunTime:0.0009s ]
+SQL: DELETE FROM `yimei_model` WHERE `name`='forum_comment' ORDER BY id DESC LIMIT 1 [ RunTime:0.0004s ]
+SQL: DROP TABLE IF EXISTS `yimei_forum_comment` [ RunTime:0.0342s ]
+SQL: DELETE FROM `yimei_attribute` WHERE model_id = (SELECT id FROM yimei_model WHERE `name`='forum_message' ORDER BY id DESC LIMIT 1) [ RunTime:0.0008s ]
+SQL: DELETE FROM `yimei_model` WHERE `name`='forum_message' ORDER BY id DESC LIMIT 1 [ RunTime:0.0004s ]
+SQL: DROP TABLE IF EXISTS `yimei_forum_message`; [ RunTime:0.0208s ]
+SQL: SELECT `name` FROM `yimei_hooks`  [ RunTime:0.0551s ]
+SQL: SELECT `addons` FROM `yimei_hooks` WHERE ( name='weixin' ) LIMIT 1   [ RunTime:0.0115s ]
+SQL: UPDATE `yimei_hooks` SET `addons`='Vote,Wecome,UserCenter,WeiSite,Hitegg,Leaflets,CustomReply,Survey,Diy,CustomMenu,Invite,Game,Ask,Forms,CardVouchers,RedBag,Guess,WishCard,RealPrize,ConfigureAccount,BusinessCard,AutoReply,Payment,Comment,ShopCoupon,Coupon,Card,SingIn,Reserve,Wuguai,Sms,Exam,Test,Draw,YaoTV,Analysis,Weiba,QrAdmin,PublicBind,Weicj,Love,Donation,Life,Shop' WHERE ( name='weixin' ) [ RunTime:0.0006s ]
+SQL: DELETE FROM `yimei_addons` WHERE ( name='Forum' ) [ RunTime:0.0005s ]
+
+[ 2016-11-10T11:03:11+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005391s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `yimei_public`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 384 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `yimei_public_link` WHERE `uid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0113s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004892s ]
+
+[ 2016-11-10T11:03:32+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/ManagerMenu/del/uid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005918s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+NOTIC: [2048] Declaration of Admin\Controller\ManagerMenuController::lists() should be compatible with Admin\Controller\AdminController::lists($model, $where = Array, $order = '', $field = true) D:\wamp\www\eciyuanWebsite\Yimei\Application\Admin\Controller\ManagerMenuController.class.php 第 16 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0018s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0111s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%ManagerMenu/del%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `yimei_manager_menu` WHERE `id` IN ('384') [ RunTime:0.0004s ]
+
+[ 2016-11-10T11:48:58+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005589s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `yimei_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `yimei_public_link` WHERE `uid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0012s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0095s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0012s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001597s ]
+
+[ 2016-11-10T11:49:00+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008996s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002043s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `yimei_public`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `yimei_public_link` WHERE `uid` = 1  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0113s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002409s ]
+
+[ 2016-11-10T11:49:05+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Config/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005391s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0011s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0157s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Config/save%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: UPDATE `yimei_config` SET `value`='1' WHERE `name` = 'DEVELOP_MODE' [ RunTime:0.0010s ]
+SQL: UPDATE `yimei_config` SET `value`='Home/User/*
+Home/Index/*
+Home/Help/*
+home/weixin/*
+admin/File/*
+home/File/*
+home/Forum/*
+Home/Material/detail' WHERE `name` = 'ACCESS' [ RunTime:0.0004s ]
+SQL: UPDATE `yimei_config` SET `value`='20160708' WHERE `name` = 'SYSTEM_UPDATRE_VERSION' [ RunTime:0.0003s ]
+SQL: UPDATE `yimei_config` SET `value`='0' WHERE `name` = 'SYSTEM_CLOSE_REGISTER' [ RunTime:0.0004s ]
+SQL: UPDATE `yimei_config` SET `value`='0' WHERE `name` = 'SHOW_PAGE_TRACE' [ RunTime:0.0005s ]
+SQL: UPDATE `yimei_config` SET `value`='0:数字
+1:字符
+2:文本
+3:数组
+4:枚举' WHERE `name` = 'CONFIG_TYPE_LIST' [ RunTime:0.0003s ]
+SQL: UPDATE `yimei_config` SET `value`='1:基本
+3:用户
+4:扫码登录
+5:一键绑定
+6:开发
+99:高级' WHERE `name` = 'CONFIG_GROUP_LIST' [ RunTime:0.0003s ]
+SQL: UPDATE `yimei_config` SET `value`='./Data/' WHERE `name` = 'DATA_BACKUP_PATH' [ RunTime:0.0003s ]
+SQL: UPDATE `yimei_config` SET `value`='0' WHERE `name` = 'SYSTEM_UPDATE_REMIND' [ RunTime:0.0003s ]
+SQL: UPDATE `yimei_config` SET `value`='20971520' WHERE `name` = 'DATA_BACKUP_PART_SIZE' [ RunTime:0.0003s ]
+SQL: UPDATE `yimei_config` SET `value`='1' WHERE `name` = 'DATA_BACKUP_COMPRESS' [ RunTime:0.0003s ]
+SQL: UPDATE `yimei_config` SET `value`='9' WHERE `name` = 'DATA_BACKUP_COMPRESS_LEVEL' [ RunTime:0.0003s ]
+
+[ 2016-11-10T11:49:07+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Config/group/id/6.html
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `yimei_public`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `yimei_public_link` WHERE `uid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0094s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Config/group%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `yimei_config` WHERE `status` = 1 AND `group` = 6 ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001989s ]
+
+[ 2016-11-10T11:49:08+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `yimei_public`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `yimei_public_link` WHERE `uid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0012s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0107s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+

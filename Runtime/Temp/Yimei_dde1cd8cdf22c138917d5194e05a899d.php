@@ -1,0 +1,10 @@
+<?php
+//000000086400a:21:{s:2:"id";s:4:"1175";s:4:"name";s:12:"forum_topics";s:5:"title";s:16:"微论坛-帖子";s:6:"extend";s:1:"0";s:8:"relation";s:0:"";s:7:"need_pk";s:1:"1";s:10:"field_sort";s:34:"{"1":["title","content","photos"]}";s:11:"field_group";s:8:"1:基础";s:14:"attribute_list";s:0:"";s:13:"template_list";s:0:"";s:12:"template_add";s:0:"";s:13:"template_edit";s:0:"";s:9:"list_grid";s:240:"id:5%ID
+uname:20%发帖人
+title:30%标题
+favourid:5%赞
+likeid:5%喜欢
+createtime|time_format:15%创建时间
+status|get_name_by_status:10%状态
+id:10%操作:checkTopics?model=topics&id=[id]|审核,del?model=topics&id=[id]|删除";s:8:"list_row";s:2:"10";s:10:"search_key";s:5:"title";s:11:"search_list";s:0:"";s:11:"create_time";s:10:"1405769371";s:11:"update_time";s:10:"1405962063";s:6:"status";s:1:"1";s:11:"engine_type";s:6:"MyISAM";s:5:"addon";N;}
+?>

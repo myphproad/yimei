@@ -1,0 +1,9 @@
+<?php
+//000000086400a:21:{s:2:"id";s:4:"1177";s:4:"name";s:13:"forum_message";s:5:"title";s:16:"微论坛-消息";s:6:"extend";s:1:"0";s:8:"relation";s:0:"";s:7:"need_pk";s:1:"1";s:10:"field_sort";s:108:"{"1":["content","createtime","fromuid","touid","fromuname","touname","tid","cid","token","status","isread"]}";s:11:"field_group";s:8:"1:基础";s:14:"attribute_list";s:0:"";s:13:"template_list";s:0:"";s:12:"template_add";s:0:"";s:13:"template_edit";s:0:"";s:9:"list_grid";s:196:"id:5%ID
+fromuname:10%发送人
+touname:10%接收人
+content:40%内容
+createtime|time_format:15%创建时间
+status|get_name_by_status:10%状态
+id:10%操作:del?model=message&id=[id]|删除";s:8:"list_row";s:2:"10";s:10:"search_key";s:0:"";s:11:"search_list";s:0:"";s:11:"create_time";s:10:"1405769561";s:11:"update_time";s:10:"1405963450";s:6:"status";s:1:"1";s:11:"engine_type";s:6:"MyISAM";s:5:"addon";N;}
+?>

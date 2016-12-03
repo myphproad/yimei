@@ -1,0 +1,663 @@
+[ 2016-11-19T22:27:34+08:00 ] 103.7.30.69 /Yimei/index.php?s=/home/weixin/index/id/1.html&signature=0d04943802ff6ddc0db50894a90ab6de38dc125b&timestamp=1479565517&nonce=1594420782&openid=o9mjOwoDlflclwefF1l6YAgi4-wY
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 20 行.
+SQL: INSERT INTO `yimei_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES ('1479565654','2016-11-19 22:27:34','a:6:{s:10:\"ToUserName\";s:15:\"gh_d55313ff2f8d\";s:12:\"FromUserName\";s:28:\"o9mjOwoDlflclwefF1l6YAgi4-wY\";s:10:\"CreateTime\";s:10:\"1479565517\";s:7:\"MsgType\";s:4:\"text\";s:7:\"Content\";s:6:\"建议\";s:5:\"MsgId\";s:19:\"6354685508222507336\";}','<xml><ToUserName><![CDATA[gh_d55313ff2f8d]]></ToUserName>
+<FromUserName><![CDATA[o9mjOwoDlflclwefF1l6YAgi4-wY]]></FromUserName>
+<CreateTime>1479565517</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[建议]]></Content>
+<MsgId>6354685508222507336</MsgId>
+</xml>') [ RunTime:0.0000s ]
+SQL: SELECT `uid` FROM `yimei_public_follow` WHERE `token` = 'gh_d55313ff2f8d' AND `openid` = 'o9mjOwoDlflclwefF1l6YAgi4-wY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 300 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+SQL: INSERT INTO `yimei_weixin_message` (`ToUserName`,`FromUserName`,`CreateTime`,`MsgType`,`Content`,`MsgId`) VALUES ('gh_d55313ff2f8d','o9mjOwoDlflclwefF1l6YAgi4-wY','1479565517','text','建议','6354685508222507336') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: appid D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 73 行.
+SQL: SELECT * FROM `yimei_custom_menu` WHERE `keyword` = '建议' AND `from_type` <> 9 AND `token` = 'gh_d55313ff2f8d' AND `type` = 'click' ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yimei_keyword` WHERE ( token='0' OR token='gh_d55313ff2f8d' ) AND `keyword` = '建议' AND `keyword_type` = 0 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 20 行.
+SQL: SELECT * FROM `yimei_auto_reply` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 123 行.
+SQL: INSERT INTO `yimei_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES ('1479565654','2016-11-19 22:27:34','<?xml version=\"1.0\"?>
+<xml><Content><![CDATA[<a href=\"http://www.eciyuan.net/index.php/Mobile/Feedback/add\">欢迎访问伊媒微时代公众平台——意见与建议，点击进行意见与建议反馈</a>]]></Content><ToUserName><![CDATA[o9mjOwoDlflclwefF1l6YAgi4-wY]]></ToUserName><FromUserName><![CDATA[gh_d55313ff2f8d]]></FromUserName><CreateTime>1479565654</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>
+','_replyData') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 133 行.
+SQL: SELECT * FROM `yimei_custom_sendall` WHERE `ToUserName` = 'gh_d55313ff2f8d' AND `is_send` = 0 AND `FromUserName` = 'o9mjOwoDlflclwefF1l6YAgi4-wY'  [ RunTime:0.0000s ]
+
+[ 2016-11-19T22:30:42+08:00 ] 121.57.226.172 /Yimei/index.php?s=/Home/Index/main/publicid/1.html
+SQL: SELECT `value` FROM `yimei_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `yimei_config` SET `value`='-1127' WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\freehost\hxts50\web\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SHOW COLUMNS FROM `yimei_auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM yimei_auth_group_access a INNER JOIN yimei_auth_group g on a.group_id=g.id  WHERE ( a.uid='-1127' and g.status='1' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: 14 D:\freehost\hxts50\web\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined index: 14 D:\freehost\hxts50\web\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: 60 D:\freehost\hxts50\web\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined index: 60 D:\freehost\hxts50\web\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\freehost\hxts50\web\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 139 行.
+NOTIC: [8] Undefined offset: 14 D:\freehost\hxts50\web\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `yimei_public_link` WHERE `uid` = 0  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\freehost\hxts50\web\Yimei\Application\Common\Model\PublicModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: res D:\freehost\hxts50\web\Yimei\Application\Common\Model\PublicModel.class.php 第 52 行.
+
+[ 2016-11-19T22:30:43+08:00 ] 121.57.226.172 /Yimei/index.php?s=/home/user/login/from/3.html
+NOTIC: [8] Undefined index: uid D:\freehost\hxts50\web\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SHOW COLUMNS FROM `yimei_auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM yimei_auth_group_access a INNER JOIN yimei_auth_group g on a.group_id=g.id  WHERE ( a.uid='-1127' and g.status='1' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = -1127 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: 14 D:\freehost\hxts50\web\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined index: 14 D:\freehost\hxts50\web\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: 60 D:\freehost\hxts50\web\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined index: 60 D:\freehost\hxts50\web\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\freehost\hxts50\web\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 139 行.
+NOTIC: [8] Undefined offset: 14 D:\freehost\hxts50\web\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `yimei_public_link` WHERE `uid` = -1127  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\freehost\hxts50\web\Yimei\Application\Common\Model\PublicModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: res D:\freehost\hxts50\web\Yimei\Application\Common\Model\PublicModel.class.php 第 52 行.
+SQL: SELECT `id`,`qr_code`,`addon`,`aim_id`,`cTime`,`token`,`action_name`,`extra_text`,`extra_int`,`request_count`,`scene_id`,`expire_seconds` FROM `yimei_qr_code` WHERE `addon` = 'ScanLogin' AND `extra_text` = '58306212d8e37' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: errcode D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 1565 行.
+SQL: SELECT `scene_id` FROM `yimei_qr_code` WHERE ( action_name='QR_SCENE' ) ORDER BY scene_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `yimei_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES ('1479565843','2016-11-19 22:30:43','a:2:{s:7:\"errcode\";i:48001;s:6:\"errmsg\";s:40:\"api unauthorized hint: [QaoaqA0707vr29!]\";}','qrcode_error') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T23:24:46+08:00 ] 103.7.30.107 /Yimei/index.php?s=/home/weixin/index/id/1.html&signature=105a7891b0efa6ae4ac6dca25618613515eaec3c&timestamp=1479568947&nonce=1513435732&openid=o9mjOwr3g38Jf8hMyD7M_6Z3glO4
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 20 行.
+SQL: INSERT INTO `yimei_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES ('1479569084','2016-11-19 23:24:44','a:6:{s:10:\"ToUserName\";s:15:\"gh_d55313ff2f8d\";s:12:\"FromUserName\";s:28:\"o9mjOwr3g38Jf8hMyD7M_6Z3glO4\";s:10:\"CreateTime\";s:10:\"1479568947\";s:7:\"MsgType\";s:5:\"event\";s:5:\"Event\";s:9:\"subscribe\";s:8:\"EventKey\";s:0:\"\";}','<xml><ToUserName><![CDATA[gh_d55313ff2f8d]]></ToUserName>
+<FromUserName><![CDATA[o9mjOwr3g38Jf8hMyD7M_6Z3glO4]]></FromUserName>
+<CreateTime>1479568947</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>') [ RunTime:0.0000s ]
+SQL: SELECT `uid` FROM `yimei_public_follow` WHERE `token` = 'gh_d55313ff2f8d' AND `openid` = 'o9mjOwr3g38Jf8hMyD7M_6Z3glO4' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: errcode D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 1565 行.
+SQL: INSERT INTO `yimei_user` (`experience`,`score`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`come_from`,`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`,`groupid`) VALUES ('100','100','1728519787','1479569084','1728519787','1479569084','1','1','1','1','王雅琴','2','zh_CN','巴彦淖尔','内蒙古','中国','//wx.qlogo.cn/mmopen/zqm6ZK0ubVzayibNZ15NQD03z3l0EMfAloeicLhOQ20S7iakNqFgKFUX70uREtWxuBqg4phEQFGkr7F2yuDtHks83t2gibkicgjRJ/0','1479568947','','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `yimei_public_follow` (`token`,`openid`,`uid`) VALUES ('gh_d55313ff2f8d','o9mjOwr3g38Jf8hMyD7M_6Z3glO4','10882') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 300 行.
+NOTIC: [8] Undefined index: Content D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 41 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: appid D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 73 行.
+SQL: SELECT * FROM `yimei_custom_menu` WHERE `keyword` = 'subscribe' AND `from_type` <> 9 AND `token` = 'gh_d55313ff2f8d' AND `type` = 'click' ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 20 行.
+SQL: SELECT `uid` FROM `yimei_public_follow` WHERE `token` = 'gh_d55313ff2f8d' AND `openid` = 'o9mjOwr3g38Jf8hMyD7M_6Z3glO4' LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: token D:\freehost\hxts50\web\Yimei\Application\Common\Model\FollowModel.class.php 第 85 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\freehost\hxts50\web\Yimei\ThinkPHP\Library\Think\Model.class.php 第 542 行.
+SQL: UPDATE `yimei_public_follow` SET `has_subscribe`='1' WHERE `openid` = 'o9mjOwr3g38Jf8hMyD7M_6Z3glO4' [ RunTime:0.0000s ]
+SQL: INSERT INTO `yimei_credit_data` (`credit_name`,`admin_uid`,`uid`,`cTime`,`token`,`experience`,`score`,`credit_title`) VALUES ('subscribe','0','10882','1479569086','gh_d55313ff2f8d','100','100','关注公众号') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yimei_user` WHERE `uid` = 10882 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`has_public`,`headface_url`,`GammaAppId`,`GammaSecret`,`copy_right`,`tongji_code`,`website_logo` FROM `yimei_manager` WHERE ( uid='10882' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yimei_auth_group_access` [ RunTime:0.0156s ]
+SQL: SELECT a.group_id,g.title,g.type,g.icon FROM yimei_auth_group_access a INNER JOIN yimei_auth_group g on a.group_id=g.id  WHERE ( a.uid='10882' and g.status='1' )  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\freehost\hxts50\web\Yimei\Application\Common\Model\UserModel.class.php 第 243 行.
+SQL: SELECT `openid`,`token`,`uid`,`has_subscribe`,`syc_status`,`remark` FROM `yimei_public_follow` WHERE ( uid='10882' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: txt D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 3294 行.
+SQL: SELECT `tag_id` FROM `yimei_user_tag_link` WHERE `uid` = 10882  [ RunTime:0.0000s ]
+SQL: UPDATE `yimei_user` SET `score`='200',`experience`='200' WHERE `uid` = 10882 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yimei_user` WHERE `uid` = 10882 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`has_public`,`headface_url`,`GammaAppId`,`GammaSecret`,`copy_right`,`tongji_code`,`website_logo` FROM `yimei_manager` WHERE ( uid='10882' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yimei_auth_group_access` [ RunTime:0.0156s ]
+SQL: SELECT a.group_id,g.title,g.type,g.icon FROM yimei_auth_group_access a INNER JOIN yimei_auth_group g on a.group_id=g.id  WHERE ( a.uid='10882' and g.status='1' )  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\freehost\hxts50\web\Yimei\Application\Common\Model\UserModel.class.php 第 243 行.
+SQL: SELECT `openid`,`token`,`uid`,`has_subscribe`,`syc_status`,`remark` FROM `yimei_public_follow` WHERE ( uid='10882' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: txt D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 3294 行.
+SQL: SELECT `tag_id` FROM `yimei_user_tag_link` WHERE `uid` = 10882  [ RunTime:0.0000s ]
+SQL: SELECT `content` FROM `yimei_material_text` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 518 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 518 行.
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 123 行.
+SQL: INSERT INTO `yimei_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES ('1479569086','2016-11-19 23:24:46','<?xml version=\"1.0\"?>
+<xml><Content><![CDATA[ 欢迎访问伊媒微时代公众平台
+微信号：selanyimei
+一家专注于做穆斯林服务的公众平台！
+可体验以下功能：
+【1】 查天气，如输入：银川天气
+【2】 听音乐，如输入：听歌兰花花
+【3】 翻译，如输入：翻译I love you
+【4】 回复“资料”：获取excel、ppt、阿拉伯语等学习资料
+【5】 回复“清真寺”查看附近清真寺动态；
+【6】 回复“穆斯林文学”阅读穆斯林著作；
+【7】 回复 “建议”，提出您对我们各版块的宝贵建议。
+更多内容，敬请期待...]]></Content><ToUserName><![CDATA[o9mjOwr3g38Jf8hMyD7M_6Z3glO4]]></ToUserName><FromUserName><![CDATA[gh_d55313ff2f8d]]></FromUserName><CreateTime>1479569084</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>
+','_replyData') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 133 行.
+SQL: SELECT * FROM `yimei_custom_sendall` WHERE `ToUserName` = 'gh_d55313ff2f8d' AND `is_send` = 0 AND `FromUserName` = 'o9mjOwr3g38Jf8hMyD7M_6Z3glO4'  [ RunTime:0.0000s ]
+
+[ 2016-11-19T23:30:36+08:00 ] 103.7.30.69 /Yimei/index.php?s=/home/weixin/index/id/1.html&signature=a247208e942d27d087f67ba1682059adc245f22e&timestamp=1479569299&nonce=1877451079&openid=o9mjOwoDlflclwefF1l6YAgi4-wY
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 20 行.
+SQL: INSERT INTO `yimei_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES ('1479569436','2016-11-19 23:30:36','a:7:{s:10:\"ToUserName\";s:15:\"gh_d55313ff2f8d\";s:12:\"FromUserName\";s:28:\"o9mjOwoDlflclwefF1l6YAgi4-wY\";s:10:\"CreateTime\";s:10:\"1479569298\";s:7:\"MsgType\";s:5:\"event\";s:5:\"Event\";s:4:\"VIEW\";s:8:\"EventKey\";s:109:\"http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzI2ODMwNzE5MA==&from=1#wechat_webview_type=1&wechat_redirect\";s:6:\"MenuId\";s:9:\"417974455\";}','<xml><ToUserName><![CDATA[gh_d55313ff2f8d]]></ToUserName>
+<FromUserName><![CDATA[o9mjOwoDlflclwefF1l6YAgi4-wY]]></FromUserName>
+<CreateTime>1479569298</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzI2ODMwNzE5MA==&from=1#wechat_webview_type=1&wechat_redirect]]></EventKey>
+<MenuId>417974455</MenuId>
+</xml>') [ RunTime:0.0000s ]
+SQL: SELECT `uid` FROM `yimei_public_follow` WHERE `token` = 'gh_d55313ff2f8d' AND `openid` = 'o9mjOwoDlflclwefF1l6YAgi4-wY' LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: user D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 300 行.
+NOTIC: [8] Undefined index: Content D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 41 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: appid D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 73 行.
+SQL: SELECT * FROM `yimei_custom_menu` WHERE `keyword` = 'view' AND `from_type` <> 9 AND `token` = 'gh_d55313ff2f8d' AND `type` = 'click' ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yimei_keyword` WHERE ( token='0' OR token='gh_d55313ff2f8d' ) AND `keyword` = 'view' AND `keyword_type` = 0 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yimei_keyword` WHERE ( token='0' OR token='gh_d55313ff2f8d' ) AND `keyword` = 'view' AND `keyword_type` = 5 ORDER BY RAND() LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yimei_keyword` WHERE ( token='0' OR token='gh_d55313ff2f8d' ) AND `keyword_type` in (1,2,3,4) ORDER BY keyword_length desc, id desc  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 197 行.
+SQL: SELECT * FROM `yimei_keyword` WHERE ( token='0' OR token='gh_d55313ff2f8d' ) AND `keyword` = '*' ORDER BY id desc LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 20 行.
+SQL: SELECT `content` FROM `yimei_material_text` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 518 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 518 行.
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 123 行.
+SQL: INSERT INTO `yimei_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES ('1479569436','2016-11-19 23:30:36','<?xml version=\"1.0\"?>
+<xml><Content><![CDATA[ 欢迎访问伊媒微时代公众平台
+微信号：selanyimei
+一家专注于做穆斯林服务的公众平台！
+可体验以下功能：
+【1】 查天气，如输入：银川天气
+【2】 听音乐，如输入：听歌兰花花
+【3】 翻译，如输入：翻译I love you
+【4】 回复“资料”：获取excel、ppt、阿拉伯语等学习资料
+【5】 回复“清真寺”查看附近清真寺动态；
+【6】 回复“穆斯林文学”阅读穆斯林著作；
+【7】 回复 “建议”，提出您对我们各版块的宝贵建议。
+更多内容，敬请期待...]]></Content><ToUserName><![CDATA[o9mjOwoDlflclwefF1l6YAgi4-wY]]></ToUserName><FromUserName><![CDATA[gh_d55313ff2f8d]]></FromUserName><CreateTime>1479569436</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>
+','_replyData') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 133 行.
+SQL: SELECT * FROM `yimei_custom_sendall` WHERE `ToUserName` = 'gh_d55313ff2f8d' AND `is_send` = 0 AND `FromUserName` = 'o9mjOwoDlflclwefF1l6YAgi4-wY'  [ RunTime:0.0000s ]
+
+[ 2016-11-19T23:42:41+08:00 ] 103.7.30.69 /Yimei/index.php?s=/home/weixin/index/id/1.html&signature=f21261297340d4226183a3369707e6462dc0f4f1&timestamp=1479570024&nonce=660538443&openid=o9mjOwoDlflclwefF1l6YAgi4-wY
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 20 行.
+SQL: INSERT INTO `yimei_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES ('1479570160','2016-11-19 23:42:40','a:7:{s:10:\"ToUserName\";s:15:\"gh_d55313ff2f8d\";s:12:\"FromUserName\";s:28:\"o9mjOwoDlflclwefF1l6YAgi4-wY\";s:10:\"CreateTime\";s:10:\"1479570024\";s:7:\"MsgType\";s:5:\"event\";s:5:\"Event\";s:4:\"VIEW\";s:8:\"EventKey\";s:109:\"http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzI2ODMwNzE5MA==&from=1#wechat_webview_type=1&wechat_redirect\";s:6:\"MenuId\";s:9:\"417974455\";}','<xml><ToUserName><![CDATA[gh_d55313ff2f8d]]></ToUserName>
+<FromUserName><![CDATA[o9mjOwoDlflclwefF1l6YAgi4-wY]]></FromUserName>
+<CreateTime>1479570024</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzI2ODMwNzE5MA==&from=1#wechat_webview_type=1&wechat_redirect]]></EventKey>
+<MenuId>417974455</MenuId>
+</xml>') [ RunTime:0.0000s ]
+SQL: SELECT `uid` FROM `yimei_public_follow` WHERE `token` = 'gh_d55313ff2f8d' AND `openid` = 'o9mjOwoDlflclwefF1l6YAgi4-wY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 300 行.
+NOTIC: [8] Undefined index: Content D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 41 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: appid D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 73 行.
+SQL: SELECT * FROM `yimei_custom_menu` WHERE `keyword` = 'view' AND `from_type` <> 9 AND `token` = 'gh_d55313ff2f8d' AND `type` = 'click' ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yimei_keyword` WHERE ( token='0' OR token='gh_d55313ff2f8d' ) AND `keyword` = 'view' AND `keyword_type` = 0 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yimei_keyword` WHERE ( token='0' OR token='gh_d55313ff2f8d' ) AND `keyword` = 'view' AND `keyword_type` = 5 ORDER BY RAND() LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT * FROM `yimei_keyword` WHERE ( token='0' OR token='gh_d55313ff2f8d' ) AND `keyword_type` in (1,2,3,4) ORDER BY keyword_length desc, id desc  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 197 行.
+SQL: SELECT * FROM `yimei_keyword` WHERE ( token='0' OR token='gh_d55313ff2f8d' ) AND `keyword` = '*' ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 20 行.
+SQL: SELECT `content` FROM `yimei_material_text` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 518 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 518 行.
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 123 行.
+SQL: INSERT INTO `yimei_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES ('1479570161','2016-11-19 23:42:41','<?xml version=\"1.0\"?>
+<xml><Content><![CDATA[ 欢迎访问伊媒微时代公众平台
+微信号：selanyimei
+一家专注于做穆斯林服务的公众平台！
+可体验以下功能：
+【1】 查天气，如输入：银川天气
+【2】 听音乐，如输入：听歌兰花花
+【3】 翻译，如输入：翻译I love you
+【4】 回复“资料”：获取excel、ppt、阿拉伯语等学习资料
+【5】 回复“清真寺”查看附近清真寺动态；
+【6】 回复“穆斯林文学”阅读穆斯林著作；
+【7】 回复 “建议”，提出您对我们各版块的宝贵建议。
+更多内容，敬请期待...]]></Content><ToUserName><![CDATA[o9mjOwoDlflclwefF1l6YAgi4-wY]]></ToUserName><FromUserName><![CDATA[gh_d55313ff2f8d]]></FromUserName><CreateTime>1479570160</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>
+','_replyData') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 133 行.
+SQL: SELECT * FROM `yimei_custom_sendall` WHERE `ToUserName` = 'gh_d55313ff2f8d' AND `is_send` = 0 AND `FromUserName` = 'o9mjOwoDlflclwefF1l6YAgi4-wY'  [ RunTime:0.0000s ]
+
+[ 2016-11-19T23:57:34+08:00 ] 103.7.30.107 /Yimei/index.php?s=/home/weixin/index/id/1.html&signature=27563d7481384b7081516b5bab96e8c98fe2c854&timestamp=1479570917&nonce=553311819&openid=o9mjOwjIF7JnuynlaRQKx4dw4YrY
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 20 行.
+SQL: INSERT INTO `yimei_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES ('1479571054','2016-11-19 23:57:34','a:7:{s:10:\"ToUserName\";s:15:\"gh_d55313ff2f8d\";s:12:\"FromUserName\";s:28:\"o9mjOwjIF7JnuynlaRQKx4dw4YrY\";s:10:\"CreateTime\";s:10:\"1479570917\";s:7:\"MsgType\";s:5:\"event\";s:5:\"Event\";s:4:\"VIEW\";s:8:\"EventKey\";s:29:\"http://i.eqxiu.com/s/dB72qlIe\";s:6:\"MenuId\";s:9:\"417974455\";}','<xml><ToUserName><![CDATA[gh_d55313ff2f8d]]></ToUserName>
+<FromUserName><![CDATA[o9mjOwjIF7JnuynlaRQKx4dw4YrY]]></FromUserName>
+<CreateTime>1479570917</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://i.eqxiu.com/s/dB72qlIe]]></EventKey>
+<MenuId>417974455</MenuId>
+</xml>') [ RunTime:0.0000s ]
+SQL: SELECT `uid` FROM `yimei_public_follow` WHERE `token` = 'gh_d55313ff2f8d' AND `openid` = 'o9mjOwjIF7JnuynlaRQKx4dw4YrY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 300 行.
+NOTIC: [8] Undefined index: Content D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 41 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: appid D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 73 行.
+SQL: SELECT * FROM `yimei_custom_menu` WHERE `keyword` = 'view' AND `from_type` <> 9 AND `token` = 'gh_d55313ff2f8d' AND `type` = 'click' ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yimei_keyword` WHERE ( token='0' OR token='gh_d55313ff2f8d' ) AND `keyword` = 'view' AND `keyword_type` = 0 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yimei_keyword` WHERE ( token='0' OR token='gh_d55313ff2f8d' ) AND `keyword` = 'view' AND `keyword_type` = 5 ORDER BY RAND() LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT * FROM `yimei_keyword` WHERE ( token='0' OR token='gh_d55313ff2f8d' ) AND `keyword_type` in (1,2,3,4) ORDER BY keyword_length desc, id desc  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\freehost\hxts50\web\Yimei\Application\Home\Controller\WeixinController.class.php 第 197 行.
+SQL: SELECT * FROM `yimei_keyword` WHERE ( token='0' OR token='gh_d55313ff2f8d' ) AND `keyword` = '*' ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 20 行.
+SQL: SELECT `content` FROM `yimei_material_text` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 518 行.
+NOTIC: [8] Undefined variable: addons D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\freehost\hxts50\web\Yimei\Application\Common\Common\function.php 第 518 行.
+NOTIC: [8] Undefined index: doNotInit D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 123 行.
+SQL: INSERT INTO `yimei_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES ('1479571054','2016-11-19 23:57:34','<?xml version=\"1.0\"?>
+<xml><Content><![CDATA[ 欢迎访问伊媒微时代公众平台
+微信号：selanyimei
+一家专注于做穆斯林服务的公众平台！
+可体验以下功能：
+【1】 查天气，如输入：银川天气
+【2】 听音乐，如输入：听歌兰花花
+【3】 翻译，如输入：翻译I love you
+【4】 回复“资料”：获取excel、ppt、阿拉伯语等学习资料
+【5】 回复“清真寺”查看附近清真寺动态；
+【6】 回复“穆斯林文学”阅读穆斯林著作；
+【7】 回复 “建议”，提出您对我们各版块的宝贵建议。
+更多内容，敬请期待...]]></Content><ToUserName><![CDATA[o9mjOwjIF7JnuynlaRQKx4dw4YrY]]></ToUserName><FromUserName><![CDATA[gh_d55313ff2f8d]]></FromUserName><CreateTime>1479571054</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>
+','_replyData') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: encrypt_type D:\freehost\hxts50\web\Yimei\Application\Home\Model\WeixinModel.class.php 第 133 行.
+SQL: SELECT * FROM `yimei_custom_sendall` WHERE `ToUserName` = 'gh_d55313ff2f8d' AND `is_send` = 0 AND `FromUserName` = 'o9mjOwjIF7JnuynlaRQKx4dw4YrY'  [ RunTime:0.0000s ]
+

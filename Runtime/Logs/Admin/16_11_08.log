@@ -1,0 +1,2434 @@
+[ 2016-11-08T15:59:52+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Model/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0014s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0100s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Model/update%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_model` WHERE `name` = 'weiba_reply' AND `id` <> '1189' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yimei_model` WHERE `id` = 1189 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `yimei_model` SET `name`='weiba_reply',`title`='评论帖子',`addon`='Weiba',`field_sort`='[\"weiba_id\",\"post_id\",\"post_uid\",\"uid\",\"to_reply_id\",\"to_uid\",\"ctime\",\"content\",\"is_del\",\"comment_id\",\"storey\",\"attach_id\",\"digg_count\",\"status\"]',`list_grid`='id:5%ID
+uname:10%评论人
+content:45%内容
+digg_count:5%赞
+ctime|time_format:15%创建时间
+status|get_name_by_status:10%状态
+id:10%操作:checkTopics?model=comment&id=[id]|审核,del?model=comment&id=[id]|删除',`search_key`='',`search_list`='',`template_list`='',`template_add`='',`template_edit`='',`list_row`='10',`update_time`='1478591992' WHERE `id` = 1189 [ RunTime:0.0006s ]
+NOTIC: [2] unlink(./Runtime/Temp/Yimei_8badceef8761e1f2fa41d8bf7e2cdf39.php): No such file or directory D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `yimei_action` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `yimei_action` WHERE `name` = 'update_model' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yimei_action_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `yimei_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('7','1','0','model','1189','1478591992','操作url：/eciyuanWebsite/Yimei/index.php?s=/Admin/Model/update.html') [ RunTime:0.0005s ]
+
+[ 2016-11-08T16:20:12+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Model/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005224s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0098s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Model/update%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yimei_model` WHERE `name` = 'post_event' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\ModelModel::getSortFields() D:\wamp\www\eciyuanWebsite\Yimei\Application\Admin\Model\ModelModel.class.php 第 159 行.
+SQL: INSERT INTO `yimei_model` (`name`,`title`,`engine_type`,`need_pk`,`addon`,`create_time`,`update_time`,`status`,`field_sort`) VALUES ('post_event','活动表','MyISAM','1','Weiba','1478593212','1478593212','1','') [ RunTime:0.0005s ]
+NOTIC: [2] unlink(./Runtime/Temp/Yimei_8badceef8761e1f2fa41d8bf7e2cdf39.php): No such file or directory D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\eciyuanWebsite\Yimei\Application\Admin\Model\ModelModel.class.php 第 150 行.
+SQL: SELECT * FROM `yimei_action` WHERE `name` = 'update_model' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `yimei_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('7','1','0','model','1190','1478593212','操作url：/eciyuanWebsite/Yimei/index.php?s=/Admin/Model/update.html') [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\eciyuanWebsite\Yimei\Application\Admin\Controller\ModelController.class.php 第 173 行.
+
+[ 2016-11-08T16:20:39+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Model/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0084s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Model/update%' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yimei_model` WHERE `name` = 'weiba_event' AND `id` <> '1190' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\ModelModel::getSortFields() D:\wamp\www\eciyuanWebsite\Yimei\Application\Admin\Model\ModelModel.class.php 第 159 行.
+SQL: SELECT * FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `yimei_model` SET `name`='weiba_event',`title`='活动表',`addon`='Weiba',`list_grid`='',`search_key`='',`search_list`='',`template_list`='',`template_add`='',`template_edit`='',`list_row`='10',`update_time`='1478593239',`field_sort`='' WHERE `id` = 1190 [ RunTime:0.0363s ]
+SQL: SHOW TABLES LIKE 'yimei_post_event' [ RunTime:0.0042s ]
+NOTIC: [2] unlink(./Runtime/Temp/Yimei_8badceef8761e1f2fa41d8bf7e2cdf39.php): No such file or directory D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `yimei_action` WHERE `name` = 'update_model' LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `yimei_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('7','1','0','model','1190','1478593239','操作url：/eciyuanWebsite/Yimei/index.php?s=/Admin/Model/update.html') [ RunTime:0.0009s ]
+
+[ 2016-11-08T16:21:34+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004812s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0081s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'uid' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('uid','创建者','num','int(10) NULL','','','','1','0','regex','','','3','function','','3','0','1190','1','1478593294','1478593294') [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0005s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0040s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'uid'
+
+[ 2016-11-08T16:22:24+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0084s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'post_id' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('post_id','对应的话题ID','num','int(10) NULL','','','','1','0','regex','','','3','function','','3','0','1190','1','1478593344','1478593344') [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0003s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0040s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'post_id'
+
+[ 2016-11-08T16:23:01+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004457s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0013s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0081s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'start_time' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('start_time','开始时间','datetime','int(10) NULL','','','','1','0','regex','','','3','function','','3','0','1190','1','1478593381','1478593381') [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0004s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0043s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'start_time'
+
+[ 2016-11-08T16:28:55+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007314s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002215s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0129s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'end_time' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('end_time','结束时间','datetime','int(10) NULL','','','','1','0','regex','','','3','function','','3','0','1190','1','1478593735','1478593735') [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0004s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0053s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'end_time'
+
+[ 2016-11-08T16:29:16+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004867s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0083s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'deadline' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('deadline','报名截止','datetime','int(10) NULL','','','','1','0','regex','','','3','function','','3','0','1190','1','1478593756','1478593756') [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0005s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0040s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'deadline'
+
+[ 2016-11-08T16:29:43+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004270s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0088s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'area' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('area','城市','string','varchar(255) NULL','','','','1','0','regex','','','3','function','','3','0','1190','1','1478593783','1478593783') [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0004s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0042s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'area'
+
+[ 2016-11-08T16:30:25+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005869s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0009s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0099s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'address' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('address','地质','string','varchar(255) NULL','','','','1','0','regex','','','3','function','','3','0','1190','1','1478593825','1478593825') [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0004s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0047s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'address'
+
+[ 2016-11-08T16:30:54+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0088s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'max' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('max','最大报名人数','num','int(10) NULL','','','','1','0','regex','','','3','function','','3','0','1190','1','1478593854','1478593854') [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0003s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0041s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'max'
+
+[ 2016-11-08T16:31:49+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004461s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0083s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'join_count' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('join_count','报名人数','string','varchar(255) NULL','','','','1','0','regex','','','3','function','','3','0','1190','1','1478593909','1478593909') [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0004s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0040s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'join_count'
+
+[ 2016-11-08T16:32:16+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005583s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0120s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'join_count' AND `model_id` = 1190 AND `id` <> '11730' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0004s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0053s ]
+SQL: SELECT `name` FROM `yimei_attribute` WHERE `id` = 11730 LIMIT 1   [ RunTime:0.0004s ]
+SQL: 			ALTER TABLE `yimei_weiba_event`
+CHANGE COLUMN `join_count` `join_count`  varchar(255) NULL  COMMENT '报名人数' ; [ RunTime:0.0781s ]
+SQL: UPDATE `yimei_attribute` SET `name`='join_count',`title`='报名人数',`type`='num',`field`='varchar(255) NULL',`extra`='',`value`='',`remark`='',`is_show`='1',`is_must`='0',`validate_type`='regex',`validate_rule`='',`error_info`='',`validate_time`='3',`auto_type`='function',`auto_rule`='',`auto_time`='3',`model_id`='1190',`update_time`='1478593936' WHERE `id` = 11730 [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_action` WHERE `name` = 'update_attribute' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `yimei_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('8','1','0','attribute','11730','1478593935','操作url：/eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html') [ RunTime:0.0006s ]
+
+[ 2016-11-08T16:32:42+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0080s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'share_img' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('share_img','分享照片','num','int(10) NULL','','','','1','0','regex','','','3','function','','3','0','1190','1','1478593962','1478593962') [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0004s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0040s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'share_img'
+
+[ 2016-11-08T16:33:16+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004847s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0089s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'share_title' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('share_title','分享标题','string','varchar(255) NULL','','','','1','0','regex','','','3','function','','3','0','1190','1','1478593996','1478593996') [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0004s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0044s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'share_title'
+
+[ 2016-11-08T16:33:46+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005615s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0086s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'share_desc' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('share_desc','分享描述','string','varchar(255) NULL','','','','1','0','regex','','','3','function','','3','0','1190','1','1478594026','1478594026') [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0004s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0040s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'share_desc'
+
+[ 2016-11-08T16:34:06+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004568s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0105s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'ctime' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('ctime','新建时间','num','int(10) NULL','','','','1','0','regex','','','3','function','','3','0','1190','1','1478594046','1478594046') [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0004s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0052s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'ctime'
+
+[ 2016-11-08T16:34:19+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002578s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0011s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0090s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'ctime' AND `model_id` = 1190 AND `id` <> '11734' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0005s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0054s ]
+SQL: SELECT `name` FROM `yimei_attribute` WHERE `id` = 11734 LIMIT 1   [ RunTime:0.0004s ]
+SQL: 			ALTER TABLE `yimei_weiba_event`
+CHANGE COLUMN `ctime` `ctime`  int(10) NULL  COMMENT '新建时间' ; [ RunTime:0.0814s ]
+SQL: UPDATE `yimei_attribute` SET `name`='ctime',`title`='新建时间',`type`='num',`field`='int(10) NULL',`extra`='',`value`='',`remark`='',`is_show`='1',`is_must`='0',`validate_type`='regex',`validate_rule`='',`error_info`='',`validate_time`='3',`auto_type`='function',`auto_rule`='time',`auto_time`='3',`model_id`='1190',`update_time`='1478594059' WHERE `id` = 11734 [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_action` WHERE `name` = 'update_attribute' LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `yimei_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('8','1','0','attribute','11734','1478594059','操作url：/eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html') [ RunTime:0.0010s ]
+
+[ 2016-11-08T16:35:16+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005942s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0082s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'is_del' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('is_del','删除状态','bool','tinyint(2) NULL','1:已经删除
+2:未删除','','','1','0','regex','','','3','function','','3','0','1190','1','1478594116','1478594116') [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0004s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0043s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'is_del'
+
+[ 2016-11-08T16:35:39+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005305s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0108s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'area' AND `model_id` = 1190 AND `id` <> '11727' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0005s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0048s ]
+SQL: SELECT `name` FROM `yimei_attribute` WHERE `id` = 11727 LIMIT 1   [ RunTime:0.0006s ]
+SQL: 			ALTER TABLE `yimei_weiba_event`
+CHANGE COLUMN `area` `area`  varchar(255) NULL  COMMENT '地区' ; [ RunTime:0.0502s ]
+SQL: UPDATE `yimei_attribute` SET `name`='area',`title`='地区',`type`='string',`field`='varchar(255) NULL',`extra`='',`value`='',`remark`='',`is_show`='1',`is_must`='0',`validate_type`='regex',`validate_rule`='',`error_info`='',`validate_time`='3',`auto_type`='function',`auto_rule`='',`auto_time`='3',`model_id`='1190',`update_time`='1478594139' WHERE `id` = 11727 [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_action` WHERE `name` = 'update_attribute' LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `yimei_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('8','1','0','attribute','11727','1478594138','操作url：/eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html') [ RunTime:0.0014s ]
+
+[ 2016-11-08T16:35:55+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Attribute/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004797s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002121s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0090s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Attribute/update%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_attribute` WHERE `name` = 'city' AND `model_id` = 1190 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `yimei_attribute` (`name`,`title`,`type`,`field`,`extra`,`value`,`remark`,`is_show`,`is_must`,`validate_type`,`validate_rule`,`error_info`,`validate_time`,`auto_type`,`auto_rule`,`auto_time`,`id`,`model_id`,`status`,`create_time`,`update_time`) VALUES ('city','城市','string','varchar(255) NULL','','','','1','0','regex','','','3','function','','3','0','1190','1','1478594155','1478594155') [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0005s ]
+SQL: 				SHOW TABLES LIKE 'yimei_weiba_event'; [ RunTime:0.0041s ]
+ERR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'city'
+
+[ 2016-11-08T16:36:11+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007303s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `yimei_public`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 384 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `yimei_public_link` WHERE `uid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0145s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001750s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005188s ]
+
+[ 2016-11-08T16:36:14+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005873s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `yimei_public`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 384 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `yimei_public_link` WHERE `uid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0101s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001543s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004915s ]
+
+[ 2016-11-08T16:36:25+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005720s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `yimei_public`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 384 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `yimei_public_link` WHERE `uid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0085s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001878s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007053s ]
+
+[ 2016-11-08T16:36:27+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `yimei_public`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: -1 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `yimei_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 384 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\eciyuanWebsite\Yimei\Application\Common\Model\ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `yimei_public_link` WHERE `uid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0012s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0146s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001425s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005877s ]
+
+[ 2016-11-08T16:40:20+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Model/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005465s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0086s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Model/update%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yimei_model` WHERE `name` = 'weiba_event' AND `id` <> '1190' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yimei_model` WHERE `id` = 1190 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `yimei_model` SET `name`='weiba_event',`title`='活动表',`addon`='Weiba',`field_sort`='[\"uid\",\"post_id\",\"start_time\",\"end_time\",\"deadline\",\"area\",\"address\",\"max\",\"join_count\",\"share_img\",\"share_title\",\"share_desc\",\"ctime\",\"is_del\",\"city\"]',`list_grid`='uid:创建者
+post_id:对应话题
+content:内容
+ctime|time_format:创建时间
+is_del|get_name_by_status:状态
+id:10%操作:checkTopics?model=comment&id=[id]|审核,del?model=comment&id=[id]|删除',`search_key`='',`search_list`='',`template_list`='',`template_add`='',`template_edit`='',`list_row`='10',`update_time`='1478594420' WHERE `id` = 1190 [ RunTime:0.0008s ]
+NOTIC: [2] unlink(./Runtime/Temp/Yimei_8badceef8761e1f2fa41d8bf7e2cdf39.php): No such file or directory D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `yimei_action` WHERE `name` = 'update_model' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `yimei_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('7','1','0','model','1190','1478594420','操作url：/eciyuanWebsite/Yimei/index.php?s=/Admin/Model/update.html') [ RunTime:0.0005s ]
+
+[ 2016-11-08T17:54:57+08:00 ] ::1 /eciyuanWebsite/Yimei/index.php?s=/Admin/Model/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Controller.class.php 第 524 行.
+SQL: SELECT `id`,`title` FROM `yimei_addons` WHERE `status` = 1  [ RunTime:0.0017s ]
+SQL: UPDATE `yimei_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+168:微场景
+173:表白墙
+174:伊媒公益
+175:伊媒生活
+176:微论坛
+177:商城
+' WHERE `name` = 'addon_status' [ RunTime:0.0093s ]
+SQL: SELECT `id`,`title`,`url` FROM `yimei_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `yimei_menu` WHERE ( pid !=0 AND url like '%Model/update%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yimei_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `yimei_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`url` FROM `yimei_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `yimei_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yimei_model` WHERE `name` = 'weiba_reply' AND `id` <> '1189' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yimei_model` WHERE `id` = 1189 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `yimei_model` SET `name`='weiba_reply',`title`='评论帖子',`addon`='Weiba',`field_sort`='[\"weiba_id\",\"post_id\",\"post_uid\",\"uid\",\"to_reply_id\",\"to_uid\",\"ctime\",\"content\",\"is_del\",\"comment_id\",\"storey\",\"attach_id\",\"digg_count\",\"status\"]',`list_grid`='id:5%ID
+uname:10%评论人
+content:45%内容
+digg_count:5%赞
+ctime|time_format:15%创建时间
+status|get_name_by_status:10%状态
+id:10%操作:checkTopics?model=comment&id=[id]|审核,del?model=comment&id=[id]|删除',`search_key`='',`search_list`='',`template_list`='',`template_add`='',`template_edit`='',`list_row`='10',`update_time`='1478598897' WHERE `id` = 1189 [ RunTime:0.0006s ]
+NOTIC: [2] unlink(./Runtime/Temp/Yimei_8badceef8761e1f2fa41d8bf7e2cdf39.php): No such file or directory D:\wamp\www\eciyuanWebsite\Yimei\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `yimei_action` WHERE `name` = 'update_model' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `yimei_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('7','1','0','model','1189','1478598897','操作url：/eciyuanWebsite/Yimei/index.php?s=/Admin/Model/update.html') [ RunTime:0.0006s ]
+
